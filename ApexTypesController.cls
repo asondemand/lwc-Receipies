@@ -4,6 +4,7 @@ public with sharing class ApexTypesController {
         // Using System.debug() isn't good practice for production applications.
         // It's used here to showcase how the received data looks like in Apex.
         System.debug(wrapper + 'modified value');
+        System.debug('new value '+ wrapper);
         // The values are based on the data that is defined in the
         // apexImperativeMethodWithComplexParams Lightning web component.
         String response =
